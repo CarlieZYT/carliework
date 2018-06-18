@@ -62,7 +62,30 @@ else
 {return true;}});});function inputfocus(id){$('#'+id).removeClass('inputerror');}
 var IpadMobileHover=function(){if((navigator.userAgent.match(/iPhone/i))||(navigator.userAgent.match(/iPod/i))||(navigator.userAgent.match(/iPad/i))){$('.icon-box > i').on('touchstart',function(){$(this).trigger('hover');}).on('touchend',function(){$(this).trigger('hover');});}};$(document).ready(function(){$('.nav-tabs a[data-toggle="tab"]').each(function(){var $this=$(this);$this.on('shown.bs.tab',function(){if($('.masonry-items').length>0){$('.masonry-items').imagesLoaded(function(){$('.masonry-items').masonry({itemSelector:'li',layoutMode:'masonry'});});}
 if($('.blog-masonry').length>0){$('.blog-masonry').imagesLoaded(function(){$('.blog-masonry').masonry({itemSelector:'div.blog-listing',layoutMode:'masonry'});});}});});});$(document).ready(function(){hcodeMobileMenuDynamicClass();});$(window).resize(function(){hcodeMobileMenuDynamicClass();});function hcodeMobileMenuDynamicClass(){if(window.matchMedia('(max-width: 991px)').matches){$('.accordion-menu').addClass('mobile-accordion-menu');}else{$('.accordion-menu').removeClass('mobile-accordion-menu');}}
-$(document).ready(function(){$("figcaption").on("click",".parent-gallery-popup",function(){if($(this).parents('li').find('.gallery-img').children().length>0){$(this).parents('li').find('a.lightboxgalleryitem').first().trigger('click');}});$("figure").on("click",".parallax-parent-gallery-popup",function(){console.log($(this).parents('.parallax-portfolio-gallery-parent').find('a.lightboxgalleryitem').length);if($(this).parents('.parallax-portfolio-gallery-parent').find('a.lightboxgalleryitem').length>0){$(this).parents('.parallax-portfolio-gallery-parent').find('a.lightboxgalleryitem').first().trigger('click');}});});var pagesNum=$("div.hcode-infinite-scroll").attr('data-pagination');$(document).ready(function(){$('.infinite-scroll-pagination').infinitescroll({nextSelector:'div.hcode-infinite-scroll a',loading:{img:hcodeajaxurl.loading_image,msgText:'<div class="paging-loader" style="transform:scale(0.35);"><div class="circle"><div></div></div><div class="circle"><div></div></div><div class="circle"><div></div></div><div class="circle"><div></div></div></div>',finishedMsg:'<div class="finish-load">'+hcode_infinite_scroll_message.message+'</div>',speed:'fast',},navSelector:'div.hcode-infinite-scroll',contentSelector:'.infinite-scroll-pagination',itemSelector:'.infinite-scroll-pagination div.blog-single-post',maxPage:pagesNum,},function(newElements){$('.hcode-infinite-scroll').remove();$('#infscr-loading').remove();var $newblogpost=$(newElements);$newblogpost.imagesLoaded(function(){$('.blog-masonry').append($newblogpost).isotope('appended',$newblogpost);});try{$(".fit-videos").fitVids();}catch(err){}
+$(document).ready(function(){
+	$("figcaption").on("click",".parent-gallery-popup",function(){
+		if($(this).parents('li').find('.gallery-img').children().length>0){
+			$(this).parents('li').find('a.lightboxgalleryitem').first().trigger('click');
+		}
+	});
+	$("figure").on("click",".parallax-parent-gallery-popup",function(){
+		console.log($(this).parents('.parallax-portfolio-gallery-parent').find('a.lightboxgalleryitem').length);
+		if($(this).parents('.parallax-portfolio-gallery-parent').find('a.lightboxgalleryitem').length>0){
+			$(this).parents('.parallax-portfolio-gallery-parent').find('a.lightboxgalleryitem').first().trigger('click');
+		}
+	});
+});
+var pagesNum=$("div.hcode-infinite-scroll").attr('data-pagination');
+$(document).ready(function(){
+	$('.infinite-scroll-pagination').infinitescroll(function(newElements){
+			$('.hcode-infinite-scroll').remove();
+			$('#infscr-loading').remove();
+			var $newblogpost=$(newElements);
+			$newblogpost.imagesLoaded(function(){
+				$('.blog-masonry').append($newblogpost).isotope('appended',$newblogpost);
+			});
+			try{$(".fit-videos").fitVids();
+		}catch(err){}
 $(".blog-gallery").owlCarousel({navigation:true,slideSpeed:300,paginationSpeed:400,singleItem:true,navigationText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]});var lightboxgallerygroups={};$('.lightboxgalleryitem').each(function(){var id=$(this).attr('data-group');if(!lightboxgallerygroups[id]){lightboxgallerygroups[id]=[];}
 lightboxgallerygroups[id].push(this);});$.each(lightboxgallerygroups,function(){$(this).magnificPopup({type:'image',closeOnContentClick:true,closeBtnInside:false,gallery:{enabled:true},image:{titleSrc:function(item){var title='';var lightbox_caption='';if(item.el.attr('title')){title=item.el.attr('title');}
 if(item.el.attr('lightbox_caption')){lightbox_caption='<span class="hcode-lightbox-caption">'+item.el.attr('lightbox_caption')+'</span>';}

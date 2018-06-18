@@ -20,10 +20,10 @@
 .mfp-ajax-cur { cursor: progress; }
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close, .mfp-image-holder, .mfp-iframe-holder, .mfp-close-btn-in, .mfp-content { cursor:url("/h-code/wp-content/themes/h-code/assets/images/icon-zoom-out.png"), pointer; }
 #popup-form { cursor:default; }
-.zoom-gallery img { cursor:url("/h-code/wp-content/themes/h-code/assets/images/icon-zoom2.png"), pointer; }
+/*.zoom-gallery img { cursor:url("/h-code/wp-content/themes/h-code/assets/images/icon-zoom2.png"), pointer; }
 .product-zoom-gallery img { cursor:url("/h-code/wp-content/themes/h-code/assets/images/icon-zoom2.png"), pointer; }
 zoom-in .mfp-zoom{ cursor:url("/h-code/wp-content/themes/h-code/assets/images/icon-zoom.png"), pointer; }
-.mfp-auto-cursor .mfp-content { cursor:url("/h-code/wp-content/themes/h-code/assets/images/icon-zoom-out.png"), pointer; }
+.mfp-auto-cursor .mfp-content { cursor:url("/h-code/wp-content/themes/h-code/assets/images/icon-zoom-out.png"), pointer; }*/
 .mfp-close, .mfp-arrow, .mfp-preloader, .mfp-counter { -webkit-user-select: none; -moz-user-select: none; user-select: none; }
 .mfp-loading.mfp-figure { display: none; }
 .mfp-hide { display: none !important; }
