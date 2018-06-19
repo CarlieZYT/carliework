@@ -1230,7 +1230,7 @@ footer ul li .sub-menu a i { position: inherit !important;}
 .scroll-down{ bottom: 50px; position: absolute; text-align: center; width: 100%; z-index: 10}
 .scroll-down a i { border-radius: 2px; font-size: 17px; padding: 2px 6px; }
 .scroll-down a i:hover { background:#000; color: #fff  }
-.scroll-to-down { cursor:url("../sarrow.png"), pointer;}
+.scroll-to-down { cursor:url("./sarrow.png"), pointer;}
 .scroll-to-down-white { cursor:url("/h-code/wp-content/themes/h-code/assets/images/arrow-down-white.png"), pointer;}
 .background-slider-text { position: absolute; width: 100%}
 #owl-demo-background .owl-item  { cursor: default !important}
@@ -1809,7 +1809,7 @@ blockquote.blog-image:before, .blog-image blockquote:before { content:"";}
 .no-hover figure:hover .gallery-img {background-color: transparent !important; }
 .no-hover figure:hover img { opacity: 1 !important; -ms-transform: none; -webkit-transform: none;  transform: none; }
 .owl-carousel figure img { transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease;}
-figure:hover img { -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1.1);  transform: scale(1.1,1.1); transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:0.15;  cursor:url("../icon-zoom-white.png"), pointer; }
+figure:hover img { -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1.1);  transform: scale(1.1,1.1); transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:0.15;  cursor:url("./icon-zoom-white.png"), pointer; }
 .mfp-figure figure:hover img { cursor: pointer}
 .grid figure:hover figcaption { opacity: 1; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease;}
 .wpb_single_image figure:hover img { -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); opacity:1; cursor:default; }
@@ -3182,7 +3182,7 @@ body.vc_editor .vc_hcode_font_icons, body.vc_editor .vc_hcode_button { display: 
 /* processing loading */
 .processing { float: left; width: 100%;}
 .woocommerce .blockUI.blockOverlay{position:relative}
-.woocommerce .blockUI.blockOverlay:before,.woocommerce .loader:before{height:40px;width:40px;position:absolute;top:50%;left:50%;margin-left:-.5em;margin-top:-.5em;display:block;content:"";background:url(/h-code/wp-content/themes/h-code/assets/images/ajax-loader.gif) center center;background-size:cover;line-height:1;text-align:center;color:rgba(0,0,0,.75)}
+.woocommerce .blockUI.blockOverlay:before,.woocommerce .loader:before{height:40px;width:40px;position:absolute;top:50%;left:50%;margin-left:-.5em;margin-top:-.5em;display:block;content:"";background:url(./ajax-loader.gif) center center;background-size:cover;line-height:1;text-align:center;color:rgba(0,0,0,.75)}
 
 /* figure caption */
 figure.hcode-image-caption:hover img {transform: none; opacity: 1; cursor: inherit}

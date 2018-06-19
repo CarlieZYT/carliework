@@ -233,7 +233,7 @@ and (-webkit-min-device-pixel-ratio: 2)
 }
 .owl-carousel.white-cursor .owl-item{
 	float: left;
-    cursor: url("../icon-move-light.png"), move;
+    cursor: url("./icon-move-light.png"), move;
 }
 .owl-carousel.no-cursor .owl-item{
 	float: left;
