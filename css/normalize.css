@@ -5792,11 +5792,11 @@ button.close {
 }
 @font-face {
 	font-family: 'et-line';
-	src:url('/h-code/wp-content/themes/h-code/assets/fonts/et-line.eot');
-	src:url('/h-code/wp-content/themes/h-code/assets/fonts/et-line.eot?#iefix') format('embedded-opentype'),
-		url('../et-line.woff') format('woff'),
-		url('../et-line.ttf') format('truetype'),
-		url('/h-code/wp-content/themes/h-code/assets/fonts/et-line.svg#et-line') format('svg');
+	src:url('../fonts/et-line.eot');
+	src:url('../fonts/et-line.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/et-line.woff') format('woff'),
+		url('../fonts/et-line.ttf') format('truetype'),
+		url('../fonts/et-line.svg#et-line') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
