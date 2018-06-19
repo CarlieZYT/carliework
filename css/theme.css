@@ -58,7 +58,14 @@ Table of contents
 /* ===================================
     Reset
 ====================================== */
-body{ font-family: 'PTSans-Bold', sans-serif; -webkit-font-smoothing: antialiased; font-size:13px; color:#626262; line-height:23px; letter-spacing: 0.02em; }
+body{ 
+    font-family:'PTSans-Narrow', Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1pt; 
+    -webkit-font-smoothing: antialiased; 
+    color:black; 
+    line-height:21px;  
+}
 .float-left { float:left; }
 .float-right { float:right; }
 a{ color: #000; }
@@ -165,10 +172,10 @@ h6 { letter-spacing: 1px; font-size: 13px; font-weight: 400; line-height: 20px}
 
 /* section title */
 .section-title{ text-transform: uppercase; font-weight: 700; font-size: 20px; letter-spacing: 2px; padding: 0 0 100px 0;}
-h1.section-title { font-weight:700; font-size: 36px; line-height: 45px !important; letter-spacing: 1px; }
-h2.section-title { font-weight:700; font-size: 24px; line-height: 34px !important; }
-h3.section-title { font-weight: 700; font-size: 20px }
-h4.section-title { font-weight: 600; font-size: 16px; line-height: 20px; }
+h1.section-title { font-weight:400; font-size: 36px; line-height: 45px !important; letter-spacing: 1px; }
+h2.section-title { font-weight:400; font-size: 24px; line-height: 34px !important; }
+h3.section-title { font-weight: 400; font-size: 20px }
+h4.section-title { font-weight: 400; font-size: 16px; line-height: 20px; }
 h5.section-title { font-size: 14px; font-weight: 400 !important;}
 h6.section-title { font-size: 13px; font-weight: 600; margin-top: 0; letter-spacing: 1px;}
 .tab-content .section-title { border: medium none; font-size: 40px; font-weight: 100; text-transform: none; margin:2% 0 0; padding:0}
