@@ -162,7 +162,7 @@ abbr[title], abbr[data-original-title] { border: 0 none; color: #ff0000; cursor:
 .main-font {font-family: 'PTSans-Bold', sans-serif;}
 
 /* heading */
-h1, h2, h3, h4, h5 { text-transform: uppercase; margin:0; padding:0; color: #000; }
+h1, h2, h3, h4, h5 { text-transform: uppercase; margin:0 0 20px 0; padding:0; color: #000; }
 h1 { font-weight:700; line-height: 45px}
 h2 { font-size:24px; font-weight:400; letter-spacing:inherit; line-height: 30px}
 h3 { font-size:14px; letter-spacing:inherit; font-weight:700; }
@@ -781,7 +781,8 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 .nav-white.static-sticky-gray.shrink-nav .navbar-nav li a:hover, .nav-white.static-sticky-gray.shrink-nav .navbar-nav > .open > a, .nav-white.static-sticky-gray.shrink-nav .navbar-nav li a.active, .nav-white.static-sticky-gray.shrink-nav .navbar-nav li.current-menu-ancestor a, .nav-white.static-sticky-gray.shrink-nav .navbar-nav li.current-menu-item a { border-bottom-color: #fff;}
 .nav-black.static-sticky-gray.shrink-nav .navbar-nav li a:hover, .nav-black.static-sticky-gray.shrink-nav .navbar-nav > .open > a, .nav-black.static-sticky-gray.shrink-nav .navbar-nav li a.active, .nav-black.static-sticky-gray.shrink-nav .navbar-nav li.current-menu-ancestor a, .nav-black.static-sticky-gray.shrink-nav .navbar-nav li.current-menu-item a { border-bottom-color: #000;}
 .nav-white.sticky-nav .navbar-nav li a:hover, .nav-white.sticky-nav .navbar-nav > .open > a, .nav-white.sticky-nav .navbar-nav li a.active, .nav-white.sticky-nav .navbar-nav li.current-menu-ancestor a, .nav-white.sticky-nav .navbar-nav li.current-menu-item a  { border-bottom-color: #fff}
-.nav-white.shrink-nav .navbar-nav li a:hover, .nav-white.shrink-nav .navbar-nav > .open > a, .nav-white.shrink-nav .navbar-nav li a.active, .nav-white.shrink-nav .navbar-nav li.current-menu-ancestor a, .nav-white.shrink-nav .navbar-nav li.current-menu-item a { border-bottom-color: #000}
+.nav-white.shrink-nav .navbar-nav li a:hover, .nav-white.shrink-nav .navbar-nav > .open > a, .nav-white.shrink-nav .navbar-nav li.current-menu-ancestor a, .nav-white.shrink-nav .navbar-nav li.current-menu-item a { border-bottom-color: #000}
+.nav-white.shrink-nav .navbar-nav li a.active{ border-bottom-color: #FF1493}
 .nav-dark.shrink-nav .navbar-nav li a:hover, .nav-dark.shrink-nav .navbar-nav > .open > a, .nav-dark.shrink-nav .navbar-nav li.current-menu-ancestor a, .nav-dark.shrink-nav .navbar-nav li.current-menu-item a { border-bottom-color: #fff}
 .nav-dark-transparent.shrink-nav .navbar-nav li a:hover, .nav-dark-transparent.shrink-nav .navbar-nav > .open > a, .nav-dark-transparent.shrink-nav .navbar-nav li.current-menu-ancestor a, .nav-dark-transparent.shrink-nav .navbar-nav li.current-menu-item a { border-bottom-color: #fff}
 .nav-black.white-header .navbar-nav li.current-menu-ancestor a, .nav-black.white-header .navbar-nav li.current-menu-item a { border-bottom-color: #000}
