@@ -200,7 +200,7 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 .typography-heading .section-title  { text-transform: none !important;}
 
 /* different text size */
-.text-small { font-size:12px; line-height:15px;}
+.text-small { font-size:12px; line-height:15px; width: 100%}
 .text-med{ font-size:14px; line-height:26px;}
 .text-large { font-size: 15px; text-transform: uppercase; line-height: 24px; letter-spacing: 2px !important;}
 .text-extra-large { font-size: 16px; line-height: 28px; font-weight: 100; }
