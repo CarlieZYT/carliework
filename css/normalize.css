@@ -64,6 +64,19 @@
     will-change: transform;
 }
 
+.work-logo{
+	text-align: center !important;
+	white-space: nowrap;
+	height: 100px;
+}
+.work-logo:before,
+.work-logo_before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 div.wpcf7 {
 	margin: 0;
 	padding: 0;

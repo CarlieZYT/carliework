@@ -200,7 +200,7 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 .typography-heading .section-title  { text-transform: none !important;}
 
 /* different text size */
-.text-small { font-size:11px; line-height:15px;}
+.text-small { font-size:12px; line-height:15px;}
 .text-med{ font-size:14px; line-height:26px;}
 .text-large { font-size: 15px; text-transform: uppercase; line-height: 24px; letter-spacing: 2px !important;}
 .text-extra-large { font-size: 16px; line-height: 28px; font-weight: 100; }
@@ -320,6 +320,7 @@ i { color: #9a9a9a; margin: 0 3px}
 .parallax-gray-bg{ background: rgba(246,246,246,1)}
 .bg-blck-overlay{ background: rgba(0,0,0,0.85) }
 .bg-light-orange { background-color: #ef824c; }
+.bg-golden-brown { background-color: #D79839; }
 .bg-inherit { background-color: inherit;}
 
 /* opacity */
@@ -421,6 +422,7 @@ i { color: #9a9a9a; margin: 0 3px}
 .margin-top-20px { margin-top: 20px !important}
 .margin-top-30px { margin-top: 30px !important}
 .margin-top-35px { margin-top: 35px !important}
+.margin-top-60px { margin-top: 60px !important}
 .margin-right-20px { margin-right: 20px;}
 .margin-right-25px { margin-right: 25px;}
 .margin-0auto { margin: 0 auto !important;}
@@ -687,7 +689,7 @@ p.uppercase a:hover { text-decoration: none;}
 ====================================== */
 #scroll_to_top { cursor: pointer; }
 #scroll_to_top:hover { opacity: 0.75; }
-.scrollToTop { display: none; font-weight: bold; height: auto; padding: 0; position: fixed; right: 45px; text-align: center; text-decoration: none; top: 91%; width: auto; background-color: #000; z-index: 555; border-radius:2px; }
+.scrollToTop { display: none; font-size: 30px; color: #fff; height: 30px; padding:8px 0; position: fixed; right: 45px; text-align: center; text-decoration: none; top: 91%; width: 30px; background-color: #000; z-index: 555; border-radius:2px; }
 .scrollToTop i { font-size: 18px; margin: 0 6px; color: #fff; }
 .scrollToTop:hover { opacity: 0.5; }
 .scrollToTop:hover i { position: relative; }
@@ -1136,7 +1138,7 @@ header.sticky-mini-header .shrink-nav { top: 38px !important; position: fixed;}
     Footer
 ====================================== */
 footer { clear:both;}
-footer ul li a, .copyright {font-size: 11px}
+footer ul li a, .copyright {font-size: 16px}
 footer .bg-mid-gray { background: rgba(0,0,0,.10)}
 footer .footer-top {border-top:1px solid #e5e5e5 }
 footer h5 { margin-bottom: 20px;}
@@ -1149,7 +1151,10 @@ footer ul.list-inline li:first-child {padding-left: 6px}
 .footer-social i {  font-size: 22px;}
 .footer-social a { margin: 0 25px;}
 .footer-social a:last-child {margin-right: 0}
-.copyright { text-transform:uppercase; }
+.copyright { 
+    color: #aaa;
+/*text-transform:uppercase;*/ 
+}
 .footer-logo img { max-width: 100px;}
 .footer-bottom { position: relative; top:1px}
 .footer-position { display: table; float: none; margin-left: auto; margin-right: auto; width: auto; }
