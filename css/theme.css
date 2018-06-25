@@ -5785,7 +5785,7 @@ body.vc_editor .video-wrapper.fit-videos.z-index-0 { position: inherit; }
     .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { max-height: 394px; }
 
     /*  custom  */
-    .section-title, h3.section-title { font-size: 16px !important; line-height: 21px !important; }
+    .section-title, h3.section-title { font-size: 24px !important; line-height: 30px !important; }
     h1.section-title { font-size: 26px !important; line-height: 32px !important;}
     .btn-black.btn-small.margin-two { margin-top: 5%; }
     .highlight-button-black-background { padding: 20px 20px; }
