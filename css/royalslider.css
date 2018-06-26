@@ -14,6 +14,20 @@
   }
 }
 
+.soloSlider {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	direction: ltr;
+
+}
+@media (min-width: 780px) {
+  .soloSlider {
+    width: 100%;
+	height: 600px;
+  }
+}
+
 .royalSlider > * {
 	float: left;
 }

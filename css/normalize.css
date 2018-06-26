@@ -64,6 +64,22 @@
     will-change: transform;
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .work-logo{
 	text-align: center !important;
 	white-space: nowrap;
@@ -75,6 +91,15 @@
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+}
+
+.tech {
+	color: #D79839;
+}
+
+.mid-solo-content{
+	margin: auto;
+	width: 83%;
 }
 
 .footer-absolute{
