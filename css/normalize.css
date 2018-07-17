@@ -97,9 +97,16 @@
 	color: #D79839;
 }
 
+
 .mid-solo-content{
 	margin: auto;
 	width: 83%;
+}
+
+@media (min-width: 992px){
+  .half-content{
+    width: 50%;
+  }
 }
 
 .footer-absolute{
