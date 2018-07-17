@@ -106,6 +106,7 @@
 @media (min-width: 992px){
   .half-content{
     width: 50%;
+    float: left;
   }
 }
 
