@@ -55,3 +55,8 @@ img{height:auto}
 .responsive-ux .cusl-text-top-right .cusl-style-tit-wrap,.responsive-ux .cusl-text-bottom-right .cusl-style-tit-wrap{-webkit-transform:translateX(20%);transform:translateX(20%)}
 .responsive-ux .cusl-text-top-left .cusl-style-tit-wrap,.responsive-ux .cusl-text-bottom-left .cusl-style-tit-wrap{-webkit-transform:translateX(-20%);transform:translateX(-20%)}
 .responsive-ux .cusl-img-w30 .cusl-style-unit-inn,.responsive-ux .cusl-img-w40 .cusl-style-unit-inn,.responsive-ux .cusl-img-w50 .cusl-style-unit-inn{width:60%}
+
+.cusl-style-normal-text-wrap {
+    margin-top: 20px;
+}
+
