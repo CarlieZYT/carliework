@@ -62,6 +62,7 @@ body{
     font-family:'PTSans-Narrow', Arial, sans-serif;
     font-size: 15px;
     letter-spacing: 1pt; 
+    word-spacing: .15em;
     -webkit-font-smoothing: antialiased; 
     color:black; 
     line-height:21px;  
