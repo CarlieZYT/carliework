@@ -144,6 +144,11 @@
 	width: 83%;
 }
 
+.mid-solo-content p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
 @media (min-width: 992px){
   .half-content{
     width: 50%;
@@ -750,7 +755,7 @@ h6,
     font-size: 12px;
 }
 p {
-    margin: 0 0 10px;
+    margin: 0 0 16px;
 }
 .lead {
     margin-bottom: 25px;
