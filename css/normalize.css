@@ -128,6 +128,14 @@
   text-transform: uppercase;
 }
 
+div.polaroid {
+  width: 100%;
+  background-color: white;
+}
+
+div.polaroid p {
+  padding: 10px 20px;
+}
 
 @media (max-width: 991px){
   .cusl-style-normal-text-wrap {
