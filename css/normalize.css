@@ -673,6 +673,16 @@ h6,
     color: inherit;
     text-transform:uppercase;
 }
+
+h2,h3{
+  font-family: "ballinger-condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h3.cusl-tit{
+  font-weight: 400;
+}
+
 h1 small,
 h2 small,
 h3 small,
@@ -3227,7 +3237,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li > a {
     line-height: 1.42857143;
     border-radius:0;
-    float:left;   
+    float:left;
     text-transform:uppercase;
     margin:15px 32px;
     outline:none;
